@@ -1,0 +1,97 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="../css/main.css">
+		<title>Portfolio</title>
+	</head>
+	<body>
+		<header>
+			<h1>Jathan Hibbs</h1>
+			<h2>Software Developer</h2>
+			<nav>
+				<ul>
+                    <li><a href="../index.html">Introduction</a></li>
+                    <li class="selectedPage"><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+				</ul>
+			</nav>
+		</header>
+        <main>
+            <div id="pacman" class="projects">
+                <h2>Pac-Man:</h2>
+                <p>Recreated Pac-Man from scratch in JavaScript and JQuery. It is not built on any game engine, everything is made only using regular JS and JQuery. All the ghosts behave exactly how they do in the original game. It was Created for a four person group project where each person built a small web application to add to the website. The HTML and CSS for the main website was written by me as well.</p>
+                <img src="../img/pacManPoster.png" alt="Pac Man Image" height="680" width="672">
+                <h3>What I worked on:</h3>
+                <ul>
+                    <li>Created movement system for player and ghosts so that they would always adhere to the correct path</li>
+                    <li>Score system was programmed to be just like the original game</li>
+                    <li>Programmed ghost AI so that each would behave as in the original game</li>
+                    <li>Created a binary map to store where the tiles and walls are in the game</li>
+                    <li>Designed game-loop for reading player input, calculating movements and collision, and displaying the updated visuals</li>
+                    <li>Pellet objects optimized so as not to lag the computer</li>
+                </ul>
+                <hr>
+                <a class="githubPic" href="https://github.com/JathanHibbs/PacManFinal"><img src="../img/GitHub-Mark.png" alt="pacman-github" height="75" width="75" /></a>
+                <a class="linkPic" href="http://jhibbs.icoolshow.net/CSD122Final/projects/pacman/pacman.html"><img src="../img/link.jpg" alt="pacman-link" height="75" width="75" /></a>
+            </div>
+            <div id="towerDefense" class="projects">
+                <h2>Tower Defense:</h2>
+                <p>A Tower Defense game that was built from the ground up in C++ using only a small library to display textures. Developed by a team of 4 programmers and 2 artists.</p>
+                <div class="vidContainer">
+                    <!--<iframe src="https://www.youtube.com/embed/twR14kOv0bQ"></iframe>-->
+                    <iframe src="https://www.youtube.com/embed/twR14kOv0bQ?start=3" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <h3>What I worked on:</h3>
+                <ul>
+                    <li>Programmed tower behavior</li>
+                    <li>Collision programming</li>
+                    <li>Tower upgrades</li>
+                </ul>
+                <ul>
+                    <li>Player health</li>
+                    <li>Camera Movement and boundries</li>
+                    <li>Currency System</li>
+                </ul>
+                <hr>
+                <a class="githubPic" href="https://github.com/JathanHibbs/OceanDefense"><img src="../img/GitHub-Mark.png" alt="defense-github" height="75" width="75" /></a>
+            </div>
+			<div id="login" class="projects">
+                <h2>PHP/SQL Login:</h2>
+                <p>Created a secure Log-In system using PHP and SQL. Passwords are securely encrypted in the SQL database using the MD5 algorithm. You can choose the "remember me" option to save your login info in cookies and you will be logged in next time you load the page. Logging out will delete the cookie. Click the link icon below to try it out! Username: JHibbs Password: 1234</p>
+                <img src="../img/login.PNG" alt="login Image" height="292" width="386">
+                <img src="../img/db.PNG" alt="db Image" height="292" width="340">
+                <h3>What I worked on:</h3>
+                <ul>
+                    <li>Created front-end that takes the username and password</li>
+                    <li>A MySQL server holds the username and password information</li>
+                    <li>Designed so that the passwords are never in plain text to remain secure</li>
+                </ul>
+                <hr>
+                <a class="githubPic" href="https://github.com/JathanHibbs/PHPfinalLogin"><img src="../img/GitHub-Mark.png" alt="login-github" height="75" width="75" /></a>
+                <a class="linkPic" href="http://jhibbs.icoolshow.net/project/"><img src="../img/link.jpg" alt="login-link" height="75" width="75" /></a>
+            </div>
+            <div id="SMS" class="projects">
+                <h2>ChatStats:</h2>
+                <p>An Android Application that goes through your text messages and gathers the stats. Tells you what friends you text the most, who texts you the most. Shows the number of messages given a certain timeframe. As well as a search feature that shows how many of your texts contains a certain phrase.</p>
+                <img src="../img/mainPage_framed.jpg" alt="android Image" height="610" width="314">
+                <img src="../img/sideBar_framed.jpg" alt="android Image" height="610" width="314">
+                <img src="../img/searchPage_framed.jpg" alt="android Image" height="610" width="314">
+                <img src="../img/datePage_framed.jpg" alt="android Image" height="610" width="314">
+                <h3>What I worked on:</h3>
+                <ul>
+                    <li>Using queries and cursors, I extracted the SMS data from the phone</li>
+                    <li>Created objects to store the statistics for each person in the contact list</li>
+                    <li>Wrote XML to display the statistics, as well as get search parameters from the user</li>
+                </ul>
+                <hr>
+                <a class="githubPic" href="https://github.com/JathanHibbs/ChatStats"><img src="../img/GitHub-Mark.png" alt="ChatStats-github" height="75" width="75" /></a>
+            </div>
+        </main>
+        <footer>
+            <h1>Jathan Hibbs</h1>
+            <h2>Software Developer</h2>
+            <h3>Contact:</h3>
+                <p>Email: jathan (at) tencentsolutions.com</p>
+                <p><a href="https://www.linkedin.com/in/jathan-hibbs/">https://www.linkedin.com/in/jathan-hibbs/</a></p>
+        </footer>
+	</body>
+</html>

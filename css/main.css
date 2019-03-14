@@ -1,0 +1,177 @@
+body {
+    background-color: black;
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    margin: 0 120px 10px 120px;
+    padding: 10px;
+    text-align: center;
+    background-color: white;
+    color: black;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+footer {
+    margin: 10px 120px 0 120px;
+    padding: 10px;
+    text-align: center;
+    background-color: white;
+    color: black;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+header h1, footer h1 
+{
+    margin: 0;
+    font-size: 4em;
+}
+
+header h2, footer h2
+{
+    margin: 0;
+    font-size: 2.66em;
+}
+
+header nav ul
+{
+    padding: 0;
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 10px 0 10px;
+    text-align: center;
+    width: auto;
+    font-size: 1.5em;
+    font-family: Arial, Arial, Helvetica, sans-serif;
+    border: 2px solid black;
+    border-radius: 3px;
+    overflow-y:hidden;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: black;
+    margin: -1px;
+    overflow-y: hidden;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+header nav ul li a:hover {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+}
+
+.selectedPage a {
+    color: white;
+    background-color: black;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.selectedPage a:hover
+{
+    background-color: white;
+    color: black;
+}
+
+main {
+    margin: 0 120px 0 120px;
+    background-color: black;
+    color: white;
+    font-family: Arial, Arial, Helvetica, sans-serif;
+}
+
+main div {
+    padding: 10px 40px 10px 40px;
+    margin: 10px 0 10px 0;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    text-align:center;
+}
+
+main div a img
+{
+    margin: 15px 50px 15px 50px;
+}
+
+main div ul
+{
+    display: inline-block;
+    text-align: left;
+    margin: 5px 20px 5px 20px;
+    vertical-align: top;
+}
+
+main h2 {
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+main hr
+{
+    margin-bottom: 20px;
+}
+
+main p {
+    margin-top: 5px;
+    text-align: left;
+}
+
+.vidContainer {
+    position: relative;
+    width: 60%;
+    height: 0;
+    padding-bottom: 33.9%;
+    text-align: left;
+    margin: auto;
+}
+
+.vidContainer iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+
+h2
+{
+    font-size: 2em;
+}
+
+h3
+{
+    font-size: 2em;
+}
+
+p, li
+{
+    font-size: 1.4em;
+}
+
+h3{
+    margin-bottom: 0;
+}
+
+footer p{
+    margin: 0;
+}
+
+/*.projects {
+	height: 100%;
+}*/
+
+/*.intro
+{
+	height: 30%;
+}*/
